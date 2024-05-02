@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dell\\source\\repos\\WebApplication12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A06443C5-8E56-4B03-8C90-734C58950565}|WebApplication12\\WebApplication12.csproj|c:\\users\\dell\\source\\repos\\webapplication12\\webapplication12\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A06443C5-8E56-4B03-8C90-734C58950565}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\source\\repos\\WebApplication12\\WebApplication12\\Migrations\\20240410011639_level2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication12\\Migrations\\20240410011639_level2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06443C5-8E56-4B03-8C90-734C58950565}|WebApplication12\\WebApplication12.csproj|c:\\users\\dell\\source\\repos\\webapplication12\\webapplication12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A06443C5-8E56-4B03-8C90-734C58950565}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06443C5-8E56-4B03-8C90-734C58950565}|WebApplication12\\WebApplication12.csproj|c:\\users\\dell\\source\\repos\\webapplication12\\webapplication12\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A06443C5-8E56-4B03-8C90-734C58950565}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06443C5-8E56-4B03-8C90-734C58950565}|WebApplication12\\WebApplication12.csproj|c:\\users\\dell\\source\\repos\\webapplication12\\webapplication12\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A06443C5-8E56-4B03-8C90-734C58950565}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240410011639_level2.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\WebApplication12\\WebApplication12\\Migrations\\20240410011639_level2.cs",
+              "RelativeDocumentMoniker": "WebApplication12\\Migrations\\20240410011639_level2.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\WebApplication12\\WebApplication12\\Migrations\\20240410011639_level2.cs",
+              "RelativeToolTip": "WebApplication12\\Migrations\\20240410011639_level2.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T01:16:39.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\WebApplication12\\WebApplication12\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebApplication12\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\WebApplication12\\WebApplication12\\appsettings.Development.json",
+              "RelativeToolTip": "WebApplication12\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-10T01:12:16.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\WebApplication12\\WebApplication12\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication12\\Program.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\WebApplication12\\WebApplication12\\Program.cs",
+              "RelativeToolTip": "WebApplication12\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T00:54:17.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\WebApplication12\\WebApplication12\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication12\\appsettings.json",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\WebApplication12\\WebApplication12\\appsettings.json",
+              "RelativeToolTip": "WebApplication12\\appsettings.json",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAgAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-10T00:43:49.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\WebApplication12\\WebApplication12\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication12\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\WebApplication12\\WebApplication12\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "WebApplication12\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T00:32:55.597Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

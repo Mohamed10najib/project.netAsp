@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dell\\source\\repos\\WebApplication13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40337A87-3EE8-4CA3-8BC2-D337D36FD13A}|WebApplication13\\WebApplication13.csproj|c:\\users\\dell\\source\\repos\\webapplication13\\webapplication13\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40337A87-3EE8-4CA3-8BC2-D337D36FD13A}|WebApplication13\\WebApplication13.csproj|solutionrelative:webapplication13\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40337A87-3EE8-4CA3-8BC2-D337D36FD13A}|WebApplication13\\WebApplication13.csproj|c:\\users\\dell\\source\\repos\\webapplication13\\webapplication13\\views\\home\\submitquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40337A87-3EE8-4CA3-8BC2-D337D36FD13A}|WebApplication13\\WebApplication13.csproj|solutionrelative:webapplication13\\views\\home\\submitquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40337A87-3EE8-4CA3-8BC2-D337D36FD13A}|WebApplication13\\WebApplication13.csproj|c:\\users\\dell\\source\\repos\\webapplication13\\webapplication13\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40337A87-3EE8-4CA3-8BC2-D337D36FD13A}|WebApplication13\\WebApplication13.csproj|solutionrelative:webapplication13\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40337A87-3EE8-4CA3-8BC2-D337D36FD13A}|WebApplication13\\WebApplication13.csproj|c:\\users\\dell\\source\\repos\\webapplication13\\webapplication13\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40337A87-3EE8-4CA3-8BC2-D337D36FD13A}|WebApplication13\\WebApplication13.csproj|solutionrelative:webapplication13\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40337A87-3EE8-4CA3-8BC2-D337D36FD13A}|WebApplication13\\WebApplication13.csproj|c:\\users\\dell\\source\\repos\\webapplication13\\webapplication13\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40337A87-3EE8-4CA3-8BC2-D337D36FD13A}|WebApplication13\\WebApplication13.csproj|solutionrelative:webapplication13\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40337A87-3EE8-4CA3-8BC2-D337D36FD13A}|WebApplication13\\WebApplication13.csproj|c:\\users\\dell\\source\\repos\\webapplication13\\webapplication13\\models\\formquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40337A87-3EE8-4CA3-8BC2-D337D36FD13A}|WebApplication13\\WebApplication13.csproj|solutionrelative:webapplication13\\models\\formquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40337A87-3EE8-4CA3-8BC2-D337D36FD13A}|WebApplication13\\WebApplication13.csproj|c:\\users\\dell\\source\\repos\\webapplication13\\webapplication13\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40337A87-3EE8-4CA3-8BC2-D337D36FD13A}|WebApplication13\\WebApplication13.csproj|solutionrelative:webapplication13\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40337A87-3EE8-4CA3-8BC2-D337D36FD13A}|WebApplication13\\WebApplication13.csproj|c:\\users\\dell\\source\\repos\\webapplication13\\webapplication13\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40337A87-3EE8-4CA3-8BC2-D337D36FD13A}|WebApplication13\\WebApplication13.csproj|solutionrelative:webapplication13\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 229,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\WebApplication13\\WebApplication13\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebApplication13\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\WebApplication13\\WebApplication13\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "WebApplication13\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAMsAAAAAAAAAAAAQwNQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T13:23:11.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\WebApplication13\\WebApplication13\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApplication13\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\WebApplication13\\WebApplication13\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApplication13\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T16:30:38.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\WebApplication13\\WebApplication13\\Models\\FormQuestion.cs",
+              "RelativeDocumentMoniker": "WebApplication13\\Models\\FormQuestion.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\WebApplication13\\WebApplication13\\Models\\FormQuestion.cs",
+              "RelativeToolTip": "WebApplication13\\Models\\FormQuestion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T10:27:19.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\WebApplication13\\WebApplication13\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication13\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\WebApplication13\\WebApplication13\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication13\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAE4AAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T16:29:42.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\WebApplication13\\WebApplication13\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication13\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\WebApplication13\\WebApplication13\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication13\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwBcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T10:26:06.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "submitQuestion.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\WebApplication13\\WebApplication13\\Views\\Home\\submitQuestion.cshtml",
+              "RelativeDocumentMoniker": "WebApplication13\\Views\\Home\\submitQuestion.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\WebApplication13\\WebApplication13\\Views\\Home\\submitQuestion.cshtml",
+              "RelativeToolTip": "WebApplication13\\Views\\Home\\submitQuestion.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T10:44:16.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\WebApplication13\\WebApplication13\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebApplication13\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\WebApplication13\\WebApplication13\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebApplication13\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T16:30:40.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\WebApplication13\\WebApplication13\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication13\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\WebApplication13\\WebApplication13\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication13\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T16:30:45.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

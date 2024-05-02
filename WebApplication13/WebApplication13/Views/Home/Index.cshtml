@@ -1,0 +1,112 @@
+﻿@model FormQuestion
+
+<form asp-action="submitQuestion">
+<div class="headerApp">
+
+    <div class="div1">
+        
+        <button type="button" class="btn btn-secondary roteur"><i class="fa-solid fa-arrow-left"></i></button>
+
+            <select asp-for="TypeQuestion" class="form-select  choix" aria-label="Default select example">
+            <option value="1" selected>Choix multiple</option>
+            <option value="1">Vrai ou faux </option>
+            <option value="2">Choix Unique</option>
+
+        </select>
+    </div>
+    <div>
+            <select asp-for="Mark" class="form-select" aria-label="Default select example">
+            <option selected>1 points</option>
+            <option value="1">2 points</option>
+            <option value="2">3 points</option>
+            <option value="3">4 points</option>
+            <option>5 points</option>
+            <option value="1">6 points</option>
+            <option value="2">7 points</option>
+            <option value="3">8 points</option>
+            <option>9 points</option>
+            <option value="1">10 points</option>
+
+        </select>
+        <div>
+            <span class="clock"> <i class="fa-regular fa-clock "></i></span>
+                <select asp-for="Duration" class="form-select" aria-label="Default select example">
+
+                <option>5 Secondes</option>
+                <option value="1">10 Secondes</option>
+                <option value="2">15 Secondes</option>
+                <option value="3">20 Secondes</option>
+                <option value="3">25 Secondes</option>
+                <option selected value="3"> 30 Secondes</option>
+                <option value="3">35 Secondes</option>
+                <option value="3">40 Secondes</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary eng">Enregistrer la question</button>
+    </div>
+</div>
+<div class="continer d-flex justify-content-around">
+    <div class="continerchild continer d-flex justify-content-around">
+        <div class="continerchildLast">
+            <div class="QuestionDiv">
+
+
+                    <textarea asp-for="ContentOfQuestion" placeholder="Tapez la question ici." class="w-100 h-100 inputQ d-flex align-items-center qst" id="multiline-input" rows="5"></textarea>
+            </div>
+            <div class="AnswerDiv d-flex justify-content-around align-items-center">
+                <div class="form-check" style="background-color: Gold;">
+                        <input asp-for="CorrectAnswerList[0]" class="form-check-input" type="checkbox" value="0" id="flexCheckChecked">
+                    <div class="form-check-child">
+                            <textarea  asp-for="AnswerList[0]" placeholder="Tapez l'option de réponse correcte ici." class="w-100 h-100 inputQ d-flex align-items-center rep" id="multiline-input" rows="5"></textarea>
+                    </div>
+
+                </div>
+                <div class="form-check" style="background-color: LavenderBlush;">
+                        <input asp-for="CorrectAnswerList[1]" class="form-check-input" type="checkbox" value="1" id="flexCheckChecked">
+                    <div class="form-check-child">
+                            <textarea  asp-for="AnswerList[1]" placeholder="Tapez l'option de réponse correcte ici." class="w-100 h-100 inputQ d-flex align-items-center rep" id="multiline-input" rows="5"></textarea>
+                    </div>
+
+                </div>
+                <div class="form-check" style="background-color: LightSeaGreen;">
+                        <input asp-for="CorrectAnswerList[2]" class="form-check-input" type="checkbox" value="22" id="flexCheckChecked">
+                    <div class="form-check-child ">
+                            <textarea  asp-for="AnswerList[2]" placeholder="Tapez l'option de réponse correcte ici." class="w-100 h-100 inputQ d-flex align-items-center rep " id="multiline-input" rows="5"></textarea>
+                    </div>
+
+                </div>
+                <div class="form-check" style="background-color:PaleTurquoise;">
+                        <input asp-for="CorrectAnswerList[3]" class="form-check-input" type="checkbox" value="3" id="flexCheckChecked">
+                    <div class="form-check-child">
+                            <textarea  asp-for="AnswerList[3]" placeholder="Tapez l'option de réponse correcte ici." class="w-100 h-100 inputQ d-flex align-items-center rep" id="multiline-input" rows="5"></textarea>
+                    </div>
+
+                </div>
+             
+            </div>
+        </div>
+
+
+    </div>
+
+
+</div>
+</form>
+<script>
+
+   
+    
+    var textarea = document.getElementById('multiline-input');
+
+
+    textarea.addEventListener('input', function () {
+
+        var text = this.value.replace(/\n/g, '<br>');
+        // Update the textarea's content
+        this.innerHTML = text;
+    });
+
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

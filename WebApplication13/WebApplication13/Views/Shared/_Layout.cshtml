@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebApplication13</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebApplication13.styles.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <asp:ContentPlaceHolder runat="server" id="stylesheet" />
+    <style>
+
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        .continer {
+            margin-top: 20px;
+        }
+
+        .continerchild {
+            background-color: rgb(0, 255, 68);
+            width: 85%;
+            background-color: rgb(46, 8, 82);
+            border-radius: 10px;
+        }
+
+        .QuestionDiv {
+            height: 250px;
+            outline: none;
+            border: 1px solid rgb(127, 127, 127);
+            border-radius: 10px;
+        }
+
+            .QuestionDiv .inputQ:focus {
+                border: 1px solid rgb(141, 21, 162);
+            }
+
+        .AnswerDiv {
+            height: 250px;
+        }
+
+        .continerchildLast {
+            width: 90%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .form-check {
+            display: flex;
+            width: 220px;
+            justify-content: center;
+            height: 200px;
+            border-radius: 10px;
+            padding: 0;
+            align-items: center;
+        }
+
+        .inputQ {
+            border: none;
+            outline: none;
+            background-color: inherit;
+            text-align: center;
+            padding-top: 70px; /* Adjust based on font size */
+            padding-bottom: 5px; /* Adjust based on font size */
+            resize: none;
+            color: white;
+            font-weight: bold;
+        }
+
+            .inputQ:focus {
+                background-color: rgba(0, 0, 0, 0.2); /* Adjust the opacity as needed */
+                border-radius: 10px;
+            }
+
+        .form-check-child {
+            height: 90%;
+            width: 85%;
+            border-radius: 10px;
+        }
+
+        .qst::placeholder {
+            font-size: 24px;
+            font-weight: 500; /* Adjust the font size as needed */
+        }
+
+        .headerApp {
+            display: flex;
+            height: 60px;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .form-select {
+            height: 35px;
+            width: 140px;
+            background-color: rgb(234, 234, 234);
+            border: none;
+            outline: none;
+        }
+
+        .headerApp div {
+            display: flex;
+            justify-content: space-around;
+            width: 40%;
+        }
+
+        .roteur {
+            height: 35px;
+            width: 60px;
+            font-size: 20px;
+            background-color: rgb(234, 234, 234);
+            outline: none;
+            border: none;
+            color: black;
+        }
+
+            .roteur:hover {
+                background-color: gray;
+            }
+
+            .roteur span {
+                font-size: larger;
+            }
+
+        .headerApp .div1 {
+            width: 20%;
+        }
+
+        .eng {
+            width: 200px;
+            height: 35px;
+            background-color: rgb(116, 40, 188);
+            outline: none;
+        }
+
+            .eng:hover {
+                background-color: rgb(101, 33, 165);
+            }
+
+        .choix {
+            width: 150px;
+        }
+
+        .clock {
+            align-items: center;
+            position: relative;
+            top: 5px;
+            left: 5px;
+            font-size: 20px;
+        }
+
+        .form-check-input:checked {
+            background-color: green;
+            width: 20px;
+            height: 20px;
+            outline: none;
+            border: none;
+            box-shadow: none;
+            border-radius: 50%;
+        }
+
+        .form-check-input {
+            width: 20px;
+            height: 20px;
+            outline: none;
+            border: none;
+            box-shadow: none;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">WebApplication13</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+        
+            @RenderBody()
+      
+  
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - WebApplication13 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

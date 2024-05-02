@@ -1,0 +1,25 @@
+﻿@model FormQuestion
+
+<p> Question is  :  @Model.ContentOfQuestion</p>
+<p>list Question :</p>
+@foreach(var answer in Model.AnswerList){
+
+    <p>@answer</p>
+}
+<p>list Answer :</p>
+@{
+    var i = 0;
+}
+@foreach (var answer in Model.CorrectAnswerList)
+{
+    if (answer != "false")
+    {
+        int num = int.Parse(answer);
+        <p>@Model.AnswerList[num]</p>
+      
+    }
+    
+}
+<p> Duration : @Model.Duration</p>
+<p> mark : @Model.Mark</p>
+
